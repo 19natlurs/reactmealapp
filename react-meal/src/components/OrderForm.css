@@ -1,0 +1,46 @@
+.order {}
+
+.orderr>div {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 2%;
+}
+
+.orderr>div input {
+    padding: 2% 2%;
+    width: 100%;
+    border: 1px solid #ccc
+}
+
+.orderr>div p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.orderr>div .error {
+    color: red;
+}
+
+.btn {
+    margin-top: 3%;
+    text-align: end;
+}
+
+.btn button {
+
+    padding: 1% 5%;
+    border-radius: 10px;
+    border: 1px solid #e44f14;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+.btn button:hover {
+
+    background-color: #e44f14;
+    border: #e44f14;
+    color: white;
+
+}

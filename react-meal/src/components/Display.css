@@ -1,0 +1,76 @@
+.display {
+    background-image: url("../assests/react-meal.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.displayText {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50vw;
+    height: 25vh;
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.displayText h3 {
+    color: white;
+    margin-bottom: 3%;
+}
+
+.displayText p {
+    color: white;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+@media(max-width : 560px) {
+
+    .display {
+        background-image: url("../assests/react-meal.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+
+    .displayText {
+        position: absolute;
+        top: 27%;
+        left: 10%;
+        width: 80%;
+        height: 25vh;
+        background-color: #3f3f3f;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .displayText h3 {
+        color: white;
+        margin-bottom: 3%;
+    }
+
+    .displayText p {
+        color: white;
+        margin-bottom: 2%;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,87 @@
+.foodItem {
+
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    border-radius: 15px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+
+
+
+}
+
+.foodData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 2%;
+    border-bottom: 1px solid #808080;
+
+
+}
+
+.foodData .description {
+    color: #808080;
+    font-size: 12px;
+}
+
+.foodData .price {
+    color: #b94517;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.foodData2 form {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: end;
+}
+
+.foodData2 form input {
+    width: 18%;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.foodData2 button {
+
+    margin-top: 3%;
+    width: 25%;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: #b94517;
+    color: white;
+    border: 1px solid #b94517;
+    cursor: pointer;
+
+}
+
+@media(max-width : 560px) {
+
+    .foodItem {
+
+        position: absolute;
+        top: 47%;
+        left: 5%;
+        border-radius: 15px;
+        background-color: white;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: 48vh;
+
+
+
+    }
+
+
+}
