@@ -191,7 +191,7 @@
 
     .modal {
         position: fixed;
-        top: 28vh;
+        top: 18vh;
         left: 5%;
         z-index: 30;
         max-height: 50%;
