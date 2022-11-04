@@ -77,7 +77,8 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        height: 48vh;
+        height: fit-content;
+        /* border: 1px solid red; */
 
 
 

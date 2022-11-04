@@ -194,7 +194,7 @@
         top: 18vh;
         left: 5%;
         z-index: 30;
-        max-height: 50%;
+        max-height: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -202,6 +202,8 @@
         width: 90%;
         border-radius: 10px;
         padding: 1%;
+        border: 1px solid red;
+        overflow: auto;
 
     }
 
@@ -255,6 +257,20 @@
         justify-content: start; */
         width: 50%;
         /* border: 1px solid red; */
+    }
+
+    .mealModal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 3%;
+        /* margin: 3%; */
+        border-bottom: 1px solid black;
+        /* height: 40vh; */
+
+
     }
 
 }

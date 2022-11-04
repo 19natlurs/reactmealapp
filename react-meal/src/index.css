@@ -10,3 +10,5 @@ body {
   font-family: sans-serif;
   height: 140vh;
 }
+
+@media(max-width : 560px) {}
